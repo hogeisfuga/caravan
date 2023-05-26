@@ -12,46 +12,52 @@
 
   <body>
     <!-- header -->
-    <header>
-      <h1 class="heading">
-        <a href="index.html">
+    <header class="d-flex justify-content-center position-relative w-75 mx-auto pt-3 tb-2">
+      <h1 class="fw-bold fs-2">
+        <a href="index.html" class="text-decoration-none">
           CARAVAN
         </a>
       </h1>
-      <div class="social">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-instagram"></i>
-      </div>
+      <ul class="nav position-absolute end-0 flex-row">
+        <li class="mt-2">
+          <a><i class="fab fa-facebook-square"></i></a>
+        </li>
+        <li class="mt-2 ms-3">
+          <a><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li class="mt-2 ms-3">
+          <a><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
     </header>
 
     <!-- navigation -->
     <nav>
-      <ul class="nav-list">
-        <li class="nav-list-item">
-          <a href="index.html">Home</a>
+      <ul class="nav justify-content-center">
+        <li class="nav-link mx-2">
+          <a href="index.html" class="text-decoration-none">Home</a>
         </li>
-        <li class="nav-list-item">About</li>
-        <li class="nav-list-item">Topic</li>
+        <li class="nav-link mx-2">About</li>
+        <li class="nav-link mx-2">Topic</li>
       </ul>
     </nav>
 
     <!-- main-visual用のdiv -->
-    <div class="main-visual">
-      <div class="main-visual-content">
-        <p class="main-visual-text">
+    <div class="main-visual w-100">
+      <div class="main-visual-content text-center bg-dark opacity-75">
+        <p class="text-white">
           The world is a book<br>
           and those who do not travel<br>
           read only one page.
         </p>
-        <p class="main-visual-name">
+        <p class="text-white mt-3">
           St. Augustine
         </p>
       </div>
     </div>
 
     <!-- main用のdiv -->
-    <main>
+    <main class="d-flex flex-wrap justify-content-center my-0 mx-auto pt-5">
       <section class="blog">
         <h2 class="blog-heading">Recent Blogs</h2>
         <div class="blog-box">
